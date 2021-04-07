@@ -51,12 +51,14 @@ scroll-behavior: smooth;
  }
 
  /*project*/
-
+.title-mob{
+    display: none;
+}
  .project{
     margin-bottom: 100px;
  }
 
-h1{
+.web-title{
     font-size: 30px;
     margin-left: 50px
 }
@@ -345,7 +347,9 @@ footer{
     margin: 30px 80px;
 
 }
-
+  .navbar .logo a{
+            margin-left: -61px;
+        }
     .solution .title,
     .challenge .title,
     .outcome .title{
@@ -437,7 +441,7 @@ footer{
     
 }
 
-@media (max-width:500px){
+@media (max-width:560px){
     .solution .title,
     .challenge .title,
     .outcome .title{
@@ -465,18 +469,17 @@ footer{
         text-align: left;
         margin-left: 64%;
     }
-
-    .text-1{
-        font-size: 16px;
+    .title-mob{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
     }
-    
-    .text-1 span{
-     font-size: 16px;
-    }
+    .text-1,
     .text-2{
         display: none;
     }
-
+    
     h1{
         margin: 0px 63px;
         font-size: 18px;
@@ -552,4 +555,110 @@ footer{
         font-size: 16px;
     }
 }
+
+   @media (max-width:465px){
+    .get-in-touch{
+        display: none;
+    }
+
+    .title-mob{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .web-title{
+        display: none;
+    }
+    .general{
+        margin: 10px 30px -40px;
+    }
+    .challenge,
+    .solution,
+    .outcome{
+        margin: 80px 10px 50px 30px;
+    }
+    .candidates,
+    .studenti,
+    .student,
+    .sovet{
+        margin-left: -5%;
+    }
+    footer{
+        margin-top: 50px;
+        padding: 25px;
+    }
+
+    .contact a{
+        margin-top: -16px;
+        padding: 2px 10px;
+        font-size: 16px;
+        margin-right: 30%;
+
+    }
+   }
+
+
+    @media (max-width:400px){
+        
+
+        .navbar .logo a{
+            margin-left: -61px;
+        }
+
+        .general{
+            margin: 10px 30px;
+        }
+        .text-1,
+        .text-2{
+           display: none;
+        }    
+        .title-mob{
+            display: block;
+            margin-bottom: 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .web-title{
+            display: none;
+        }
+        ul{
+            margin: 0 0;
+        }
+
+        li{
+        margin: 20px -9px;
+        }
+        
+        .challenge,
+        .solution,
+        .outcome{
+            margin: 80px 10px 50px 30px;
+        }
+       
+
+        .candidates,
+        .studenti,
+        .student,
+        .sovet{
+            margin-left: -5%;
+        }
+
+        footer{
+            margin-top: 50px;
+            padding: 25px;
+        }
+
+        .contact a{
+            margin-top: -16px;
+            padding: 2px 10px;
+            font-size: 16px;
+            margin-right: 30%;
+    
+        }
+        .get-in-touch{
+            display: none;
+        }
+    }
+
 

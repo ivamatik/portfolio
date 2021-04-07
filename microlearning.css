@@ -56,9 +56,12 @@ scroll-behavior: smooth;
  .project{
     margin-bottom: 100px;
  }
-
-h1{
+ .title-mob{
+    display: none;
+}
+.web-title{
     font-size: 30px;
+    margin-bottom: 20px;
 }
 .img .main{
     /*position: absolute;
@@ -91,23 +94,21 @@ h1{
     margin:5px 360px;
 }
 
-h1{
-margin-bottom: 10px;
-}
+
  
 ul{
     list-style-type:none;
-    font-size: 16px;
+    font-size: 18px;
  }
 
  li span{
      font-weight: 600;
-     font-size: 16px;
+ 
  }
 
  li{
-     margin: 0 15px;
-     padding: 10px 10px;
+     margin: 5px;
+     padding: 10px;
    
  }
  
@@ -178,16 +179,15 @@ margin: 65px 360px;
     margin: 0 360px;
 }
 .survey{
-    width: 50%;
+    width: 90%;
     height: 40%;
-    margin-left: 350px;
+    margin-left: 10%;
     margin-bottom: 100px;
 }
 
 .persona{
-    height: 30%;
-    width: 40%;
-    margin-left: 320px;
+    width: 90%;
+    margin-left: 47px;
     margin-top: 50px;
     margin-bottom: 50px;
     
@@ -206,9 +206,8 @@ margin: 65px 360px;
     margin-bottom: 100px;
 }
 .game-img{
-    height: 50%;
-    width: 60%;
-    margin-left: 160px;
+    width: 69%;
+    margin-left: 93px;
     margin-top: 50px;
     
  }
@@ -440,7 +439,7 @@ footer{
     }
     
 
-      .outcome-project{
+    .outcome-project{
         margin: 30px 80px;
     }
    
@@ -453,10 +452,7 @@ footer{
     }
 
     .intro{
-        margin-top: -150px;
-        margin-bottom: 150px;
-        text-align: left;
-        margin-left: 64%;
+        display: none;
     }
 
     .text-1{
@@ -468,16 +464,23 @@ footer{
     }
  
 
-    h1{
-        margin: 0px 63px;
-        font-size: 16px;
+    .web-title{
+        display: none;    
+    }
+
+    .title-mob{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
     }
     ul{
-    margin: 10px 30px;
-}
+        margin: 10px -77px;
+    }
     .challenge p,
-    .main-goal{
-        margin: 30px 80px;
+    .main-goal,
+    .research{
+        margin: 30px 19px;
     }
 
 
@@ -499,15 +502,17 @@ footer{
     .accessible{
         height: 100%;
         width: 90%;
-        margin-top: 50px;
-        margin-left:9%;  
+        margin-top: 0px;
+        margin-left: 2%;
+        margin-bottom: 30px;
     }
 
     .game-img{
         height: 100%;
         width: 90%;
-        margin-top: 50px;
-        margin-left:9%; 
+        margin-left: -2%;
+        margin-top: 10px;
+        margin-bottom: 30px; 
     }
     
     .get-in-touch{
@@ -520,5 +525,66 @@ footer{
         margin-top: -31px;
         padding: 2px 10px;
         font-size: 16px;
+    }
+}
+
+@media (max-width:400px){
+        
+
+    .navbar .logo a{
+        margin-left: -61px;
+    }
+
+    .general{
+        margin: 10px 30px;
+    }
+    .text-1,
+    .text-2{
+       display: none;
+    }    
+    .title-mob{
+        display: block;
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .web-title{
+        display: none;
+    }
+    ul{
+        margin: 0 0;
+    }
+
+    li{
+    margin: 20px -9px;
+    }
+
+    .outcome {
+        margin: 30px 6px;
+    }
+    
+    .challenge,
+    .solution,
+    .outcome{
+        margin: 80px 10px 50px 30px;
+    }
+    .outcome-project{
+        margin: 80px 10px 50px 30px; 
+    }
+
+    footer{
+        margin-top: 50px;
+        padding: 25px;
+    }
+
+    .contact a{
+        margin-top: -16px;
+        padding: 2px 10px;
+        font-size: 16px;
+        margin-right: 30%;
+
+    }
+    .get-in-touch{
+        display: none;
     }
 }

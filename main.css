@@ -110,7 +110,7 @@ color: #C29729;
     display: inline-block;
     background: white;
     color: black;
-  font-size: 23px;
+    font-size: 23px;
     padding: 9px 36px;
     margin-top: 20px;
     border-radius: 10px;
@@ -146,6 +146,14 @@ color: #C29729;
 color:#C29729;
 }
 
+.dig-portf{
+  display: none;
+
+}
+
+.micro-app{
+    display: none;
+}
 .image{
     position: relative;
     width: 1100x;
@@ -357,7 +365,7 @@ color:#C29729;
 
 footer{
     font-family: 'Poppins', sans-serif;
-    background: grey;
+    background: whitesmoke;
     padding: 20px 23px;
 } 
 
@@ -408,7 +416,7 @@ footer{
     .menu-btn i.active:before{
         content: "\f00d";
     }
-}
+    }
 
     .navbar .menu{
         position: fixed;
@@ -539,6 +547,39 @@ footer{
             font-size: 25px;
         }
 
+        .home .home-content a{
+            background: white;
+            color: black;
+            font-size: 12px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 2px solid #C29729;
+            transition: all 0.3s ease;
+        
+        }
+
+
+        .work .title{
+            margin-top: 20px;
+            margin-bottom: 100px;
+        }
+     
+     .dig-portf{
+         text-align: center;
+         font-size: 18px;
+         margin-bottom: -100px;
+         display: block;
+
+     }
+     .micro-app{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: -100px;
+        display: block;
+        margin-top: -40px;
+
+    }
+    
         .contact-content{
             display: flex;
             align-items: center;
@@ -546,5 +587,4 @@ footer{
             font-size: 12px;
         }
     }
-    
 }
